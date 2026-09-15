@@ -1,3 +1,4 @@
+## version beta 67
 def add(a, b):
     return a + b
 
@@ -22,4 +23,17 @@ num2 = float(num2)
 
 if operator == "+":
     result = add(num1, num2)
+    
+elif operator == "-":
+    result = subtract(num1, num2)
 
+elif operator == "*":
+    result = multiply(num1, num2)
+
+elif operator == "/":
+    result = divide(num1, num2)
+
+else:
+    result = "Invalid operator"
+
+print("Result =", result)
