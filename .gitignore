@@ -1,0 +1,8 @@
+venv/
+env/
+.virtualenv/
+node_modules/
+__pycache__/
+*._pycache__/
+*.pyo/
+.log
